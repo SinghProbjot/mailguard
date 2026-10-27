@@ -1,0 +1,7 @@
+__pycache__/
+build/
+dist/
+*.spec
+mailguard/*.jsonl
+mailguard/contacts.json
+mailguard/known_domains.json

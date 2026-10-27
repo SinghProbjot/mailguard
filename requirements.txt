@@ -1,0 +1,10 @@
+pywin32
+beautifulsoup4
+tldextract
+winotify
+pystray
+pillow
+# solo per creare l'exe
+pyinstaller
+# opzionale, modello Laya (pesante: scarica torch)
+# laya

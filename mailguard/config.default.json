@@ -1,0 +1,128 @@
+{
+  "language": "",
+  "mailbox": "",
+  "own_domains": [],
+  "company_name": "",
+  "company_sector": "",
+  "trusted_domains": [],
+  "trusted_senders": [],
+  "blocked_domains": [],
+  "blocked_senders": [],
+  "model": "ollama",
+  "ollama_model": "qwen3:4b",
+  "ollama_url": "http://localhost:11434",
+  "apply_actions": false,
+  "auto_watch": true,
+  "notify": true,
+  "poll_seconds": 20,
+  "max_body_chars": 3500,
+  "thresholds": {
+    "suspect": 40,
+    "phishing": 70
+  },
+  "action_phishing": "junk",
+  "action_suspect": "category",
+  "category_suspect": "",
+  "category_phishing": "",
+  "safe_link_domains": [
+    "aka.ms",
+    "apple.com",
+    "google.com",
+    "github.com",
+    "claude.ai",
+    "anthropic.com",
+    "chatgpt.com",
+    "openai.com",
+    "linkedin.com",
+    "youtube.com",
+    "microsoft.com",
+    "office.com",
+    "sharepoint.com",
+    "live.com",
+    "windows.net",
+    "apps.apple.com",
+    "play.google.com",
+    "unsubscribe.com",
+    "list-manage.com",
+    "mailchimp.com",
+    "sendgrid.net"
+  ],
+  "brands": {
+    "microsoft": [
+      "microsoft.com",
+      "office.com",
+      "live.com",
+      "outlook.com",
+      "sharepoint.com",
+      "onmicrosoft.com",
+      "mail.microsoft",
+      "teams.microsoft.com",
+      "microsoftonline.com"
+    ],
+    "dhl": [
+      "dhl.com",
+      "dhl.it",
+      "dhl.de"
+    ],
+    "ups": [
+      "ups.com"
+    ],
+    "fedex": [
+      "fedex.com"
+    ],
+    "poste": [
+      "poste.it",
+      "posteitaliane.it"
+    ],
+    "brt": [
+      "brt.it"
+    ],
+    "gls": [
+      "gls-italy.com",
+      "gls-group.eu"
+    ],
+    "amazon": [
+      "amazon.it",
+      "amazon.com"
+    ],
+    "paypal": [
+      "paypal.com",
+      "paypal.it"
+    ],
+    "intesa": [
+      "intesasanpaolo.com"
+    ],
+    "unicredit": [
+      "unicredit.it"
+    ],
+    "agenzia entrate": [
+      "agenziaentrate.gov.it"
+    ],
+    "inps": [
+      "inps.it"
+    ],
+    "docusign": [
+      "docusign.com",
+      "docusign.net"
+    ],
+    "adobe": [
+      "adobe.com"
+    ],
+    "google": [
+      "google.com",
+      "gmail.com"
+    ],
+    "aruba": [
+      "aruba.it",
+      "pec.it"
+    ],
+    "tim": [
+      "tim.it",
+      "telecomitalia.it"
+    ],
+    "enel": [
+      "enel.it",
+      "enel.com"
+    ]
+  }
+}
